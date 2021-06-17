@@ -12,3 +12,11 @@ routers:
   - application_name: "py"
     paths:
     - /
+- name: "main-py"
+  custom_domains:
+  - branch: main
+    domain: www.bojha.com.np
+  routes:
+  - application_name: "py"
+    paths:
+    - /
