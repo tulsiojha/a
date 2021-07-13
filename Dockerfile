@@ -1,7 +1,7 @@
 FROM node:14
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+RUN mkdir -p /usr/src/apps
+WORKDIR /usr/src/apps
 
 COPY package*.json ./
 
