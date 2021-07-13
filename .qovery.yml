@@ -1,0 +1,11 @@
+---
+application:
+  name: "helloapp"
+  project: "hi"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-py"
+  routes:
+  - application_name: "helloapp"
+    paths:
+    - "/*"
